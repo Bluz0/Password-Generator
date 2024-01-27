@@ -29,7 +29,7 @@ frame = Frame(window,bg="#2d2d30")
 #image
 width = 300
 height = 300
-image = PhotoImage(file="lock.png").subsample(3) #zoom
+image = PhotoImage(file="images/lock.png").subsample(3) #zoom
 canvas = Canvas(frame, width=width,height=height,bg="#2d2d30",bd=0,highlightthickness=0)
 canvas.create_image(width/2,height/2,image=image)
 canvas.grid(row=0,column=0,sticky=W)
